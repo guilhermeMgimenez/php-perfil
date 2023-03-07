@@ -7,7 +7,7 @@
         <input required id="form2" class="form-control" placeholder="usuario" name="usuario">
     </div>
     <div class="">
-        <input required id="form2" type="pass" class="form-control" placeholder="senha" name="senha">
+        <input required id="form2" type="password" class="form-control" placeholder="senha" name="senha">
     </div>
     <button type="submit" class="btn btn-info ms-2"><i class="bi bi-plus-circle-fill"></i>login</button>
 <hr>

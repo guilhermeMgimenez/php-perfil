@@ -27,6 +27,7 @@ $nomeFoto = $nomeNovoImg;
 $fundo = $_POST['imagemradio'];
 
 include_once "conexao.php";
+$senha = md5($senha);
 $sql = "INSERT INTO tb_perfis (nome, email, profissao, descricao, instagram, twitter, facebook, linkedin, youtube, senha, foto, fundo) VALUES ('$nome', '$email', '$profissao', '$descricao', '$instagram', '$twitter', '$facebook', '$linkedin', '$youtube', '$senha', '$nomeFoto', '$fundo')";
 mysqli_query($conexao, $sql);
 

@@ -37,6 +37,9 @@ include_once "sessao-login.php";?>
         <li class="nav-item">
           <a class="nav-link" href="perfil-novo.php">adicionar novo</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="perfil-painel.php">mostrar perfis</a>
+        </li>
       </ul>
       <!-- Left links -->
     </div>
